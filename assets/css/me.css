@@ -101,14 +101,14 @@ body.page-template-page-fullsingle-me {
   font-size: 45px;
   line-height: 60px;
   letter-spacing: -0.5px;
-  color: #999999;
+  color: #cccccc;
   background-image: url("../../images/background.png");
-  background-position: center center;
+  background-position: center right;
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
     color: #fff3ec;
-    text-shadow: 1px 2px 1px rgb(0 0 0 / 50%);}
+    text-shadow: 1px 2px 1px rgb(0 0 0 / 50%); }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
         font-size: 32px;
@@ -224,32 +224,30 @@ body.page-template-page-fullsingle-me {
         .network ul li a .svg-icon path,
         .network ul li a .svg-icon polygon,
         .network ul li a .svg-icon rect {
-          fill: #999999;
+          fill: #ffc3a0;
           -webkit-transition: 1s;
           transition: 1s; }
         .network ul li a .svg-icon circle {
-          stroke: #999999;
+          stroke: #ffc3a0;
           stroke-width: 1; }
       .network ul li a:hover .svg-icon path,
       .network ul li a:hover .svg-icon polygon,
       .network ul li a:hover .svg-icon rect {
-        fill: #FFFFFF;
+        fill: #fff3ec;
         -webkit-transition: 0.1s;
         transition: 0.1s; }
 
 .credit {
-  font-size: 12px;
-  line-height: 14px;
-  margin-bottom: 0;
+  margin: 1rem 0;
   -webkit-animation: fadein 8s;
           animation: fadein 8s; }
   .credit p.copyright {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1rem;
+    line-height: 1rem;
     font-weight: 400;
     opacity: 0.4; }
     .credit p.copyright a {
-      color: #999999; }
+      color: #cccccc; }
 
 body.page-template-page-fullsingle-me.me-video {
   background-image: none; }
