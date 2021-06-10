@@ -97,8 +97,8 @@ body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #141414;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 45px;
+  font-weight: 400;
+  font-size: 40px;
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #cccccc;
@@ -209,33 +209,26 @@ body.page-template-page-fullsingle-me {
     margin-top: auto; }
     .network ul li {
       display: inline-block;
-      margin-right: 1rem; }
+      margin-right: 0.5rem; }
       .network ul li a {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         cursor: pointer; }
         .network ul li a .svg-icon {
-          padding: 4px;
-          width: 50px;
-          height: 50px;
-          margin: 0;
+          padding: 6px;
+          background-color: #ffc3a0;
+          width: 35px;
+          height: 35px;
+          margin: auto;
+          border-radius: 25%;
           display: block; }
-        .network ul li a .svg-icon path,
-        .network ul li a .svg-icon polygon,
-        .network ul li a .svg-icon rect {
-          fill: #ffc3a0;
+        .network ul li a .svg-icon {
           -webkit-transition: 1s;
           transition: 1s; }
-        .network ul li a .svg-icon circle {
-          stroke: #ffc3a0;
-          stroke-width: 1; }
-      .network ul li a:hover .svg-icon path,
-      .network ul li a:hover .svg-icon polygon,
-      .network ul li a:hover .svg-icon rect {
-        fill: #fff3ec;
-        -webkit-transition: 0.1s;
-        transition: 0.1s; }
+        .network ul li a .svg-icon:hover {
+          background-color: #fff3ec;
+        }
 
 .credit {
   margin: 1rem 0;
