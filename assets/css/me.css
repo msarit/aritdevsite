@@ -102,10 +102,10 @@ body.page-template-page-fullsingle-me {
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #cccccc;
-  background-image: url("../../images/background.png");
+  background-image: url("../../images/background.jpeg");
   background-position: center right;
   background-size: cover; }
-  body.page-template-page-fullsingle-me p {
+  body.page-template-page-fullsingle-me p, .revue-form-group label {
     margin-bottom: 28px;
     color: #fff3ec;
     text-shadow: 1px 2px 1px rgb(0 0 0 / 50%); }
@@ -121,8 +121,7 @@ body.page-template-page-fullsingle-me {
   z-index: 1000; }
   @media (max-width: 500px) {
     .fs-me {
-      padding: 5vh 5vw;
-      text-align: center; } }
+      padding: 5vh 5vw; } }
   .fs-me .me-content {
     height: 80vh;
     display: -webkit-box;
@@ -182,8 +181,8 @@ body.page-template-page-fullsingle-me {
       max-width: none; } }
   .bio a {
     color: #ffc3a0;
-    -webkit-transition: 1s;
-    transition: 1s; }
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
     .bio a:hover {
       color: #fff3ec;
       -webkit-transition: 0.1s;
@@ -223,12 +222,55 @@ body.page-template-page-fullsingle-me {
           margin: auto;
           border-radius: 25%;
           display: block; }
-        .network ul li a .svg-icon {
-          -webkit-transition: 1s;
-          transition: 1s; }
-        .network ul li a .svg-icon:hover {
+        .network ul li a .svg-icon, #member_submit {
+          -webkit-transition: 0.5s;
+          transition: 0.5s; }
+        .network ul li a .svg-icon:hover, #member_submit:hover {
           background-color: #fff3ec;
         }
+
+#revue-embed label {
+  font-size: 24px;
+}
+
+.revue-form-collection {
+  display: flex;
+  line-height: 1;
+  margin-bottom: 1rem; }
+  @media (max-width: 678px) {
+    .revue-form-collection {
+      display: inherit; } }
+
+
+.revue-form-field {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+#member_submit {
+  padding: 6px 12px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffc3a0;
+  cursor: pointer;
+}
+
+.revue-form-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.revue-form-footer a {
+  color: #ffc3a0;
+}
 
 .credit {
   margin: 1rem 0;
